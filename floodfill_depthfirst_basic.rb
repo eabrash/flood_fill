@@ -66,7 +66,7 @@ test_image = [[" ", " ", " ", " ", " ", " ", " ", " ", " ", "X", " ", " ", " ", 
           [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "]]
 
 
-print "Image to fill: "
+puts "Image to fill: "
 
 draw_image(test_image)
 
@@ -86,6 +86,6 @@ paint(test_image, row, column, char)
 
 puts
 
-puts "Result:\n\n"
+puts "Result:"
 
 draw_image(test_image)
